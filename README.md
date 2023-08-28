@@ -54,3 +54,7 @@ gptcli
 - [x] API Key
 - [ ] Help
 - [ ] Temperature
+
+---
+
+UI inspired by [@clack/prompts](https://github.com/natemoo-re/clack/tree/main/packages/prompts#readme)
