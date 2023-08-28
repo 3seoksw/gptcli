@@ -9,9 +9,9 @@ def check_API_key(interface, api_key):
         openai.api_key = api_key
         openai.Model.list()
 
-        interface.spinner_succeed(f"API key valid")
+        interface.spinner_succeed(f"API key valid   ")
     except openai.OpenAIError:
-        interface.spinner_failed(f"Invalid API key")
+        interface.spinner_failed(f"Invalid API key    ")
 
         program_exit()
 
